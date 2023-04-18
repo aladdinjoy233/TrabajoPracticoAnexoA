@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_musica"
+            android:icon="@drawable/ic_menu_music"
+            android:title="@string/menu_musica" />
+        <item
+            android:id="@+id/nav_ubicacion"
+            android:icon="@drawable/ic_menu_location"
+            android:title="@string/menu_ubicacion" />
+        <item
+            android:id="@+id/nav_salir"
+            android:icon="@drawable/ic_menu_leave"
+            android:title="@string/menu_salir" />
+    </group>
+</menu>
